@@ -1,0 +1,41 @@
+{
+  "raw_sha256": "e722ded60e6162a47b00746c6215498dcf0ce9dd004703fd01ab560dfc213ba2",
+  "raw_rows": 42443,
+  "retained_rows": 9913,
+  "retained_dois": 2080,
+  "scope": {
+    "architecture": "nip",
+    "deposition": "single-step Spin-coating",
+    "absorber": "single-layer Pb-based; A=Cs/FA/MA, X=I/Br",
+    "illumination": "AM 1.5, 100 mW/cm²",
+    "label": "JV_default_PCE, Reversed scan only",
+    "area": "0 < measured area <= 1 cm²; historical default area may be present",
+    "annealing": "one numeric temperature and time, no multistage program",
+    "solvents": "DMF/DMSO/GBL/NMP with known relative mixing ratios"
+  },
+  "exclusion_first_reason_counts": {
+    "not_single_layer_stoichiometric_Pb": 988,
+    "architecture_not_nip": 12816,
+    "non_scalar_or_invalid_annealing": 2777,
+    "unsupported_or_unknown_solvent_ratio": 931,
+    "unsupported_A_or_X_composition": 477,
+    "not_single_step_spin_coating": 10479,
+    "not_reverse_scan_label": 2130,
+    "nonstandard_illumination": 1068,
+    "area_outside_small_cell_scope": 241,
+    "not_perovskite_structure": 158,
+    "malformed_scope_field": 13,
+    "missing_or_invalid_doi": 1,
+    "same_paper_exact_feature_label_duplicate": 451
+  },
+  "pce_range": [
+    0.0,
+    23.0
+  ],
+  "caveats": [
+    "Measured area may include historical database default 0.1 cm².",
+    "Solvent ratios follow archive convention; volume basis is not guaranteed.",
+    "Unreported additives are not proven additive-free.",
+    "Records may represent averages, not individual devices."
+  ]
+}

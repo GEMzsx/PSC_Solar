@@ -1,0 +1,2 @@
+a_cs,a_fa,a_ma,x_br,x_i,solvent_dmf,solvent_dmso,solvent_gbl,solvent_nmp,anneal_temperature_c,anneal_time_min,area_cm2,etl,htl,quenching_media,additives
+0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,100.0,60.0,0.06,TiO2-c,Spiro-MeOTAD,Unreported,Cl

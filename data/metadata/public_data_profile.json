@@ -1,0 +1,3327 @@
+{
+  "source_file": "Perovskite_database_content_all_data.csv",
+  "sha256": "e722ded60e6162a47b00746c6215498dcf0ce9dd004703fd01ab560dfc213ba2",
+  "row_count": 42443,
+  "column_count": 410,
+  "missing_tokens": [
+    "",
+    "n/a",
+    "na",
+    "nan",
+    "none",
+    "not reported",
+    "null",
+    "unknown"
+  ],
+  "unique_doi_count": 7358,
+  "valid_pce_count": 41519,
+  "valid_pce_with_doi_count": 41519,
+  "architectures": {
+    "nip": 29627,
+    "pin": 12764,
+    "Front contacted": 7,
+    "Back contacted": 33,
+    "Unknown": 6,
+    "Schottky": 5,
+    "Pn-Heterojunction": 1
+  },
+  "columns": {
+    "Ref_ID": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "Ref_ID_temp": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "Ref_name_of_person_entering_the_data": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "Adam Hultqvist",
+        "Alberto Garcia-Fernandez",
+        "Aman Anand"
+      ]
+    },
+    "Ref_data_entered_by_author": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "False",
+        "True"
+      ]
+    },
+    "Ref_DOI_number": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "10.1021/jp5126624",
+        "10.1016/j.electacta.2017.06.032",
+        "10.1002/adfm.201604733"
+      ]
+    },
+    "Ref_lead_author": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "Sabba et al.",
+        "Wang et al.",
+        "Cohen et al."
+      ]
+    },
+    "Ref_publication_date": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "2015-01-06",
+        "2017-06-06",
+        "2016-12-12"
+      ]
+    },
+    "Ref_journal": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "The Journal of Physical Chemistry C",
+        "Electrochimica Acta",
+        "Advanced Functional Materials"
+      ]
+    },
+    "Ref_part_of_initial_dataset": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "True",
+        "False"
+      ]
+    },
+    "Ref_original_filename_data_upload": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "Historic dataset on 2020 11 22_v7.xlsx",
+        "2021-05-30 Extraction protocolls version 5_4_JZ_slot die coating_v2.xlsx",
+        "2021-06-20 Jingshan 2021 06 20 Extraction protocolls version 5_4_v1.xlsx"
+      ]
+    },
+    "Ref_free_text_comment": {
+      "present_count": 1028,
+      "missing_fraction": 0.975779,
+      "examples": [
+        "NiO/ALD TiO2 bilayer paper",
+        "2D/3D heterojunction",
+        "indoor performance"
+      ]
+    },
+    "Ref_internal_sample_id": {
+      "present_count": 19507,
+      "missing_fraction": 0.540395,
+      "examples": [
+        "Clamping",
+        "MAPbI3 (PbI2)",
+        "MAPbI3 (P2)"
+      ]
+    },
+    "Cell_stack_sequence": {
+      "present_count": 42439,
+      "missing_fraction": 9.4e-05,
+      "examples": [
+        "SLG | FTO | TiO2-c | TiO2-mp | Perovskite | Spiro-MeOTAD | Au",
+        "SLG | FTO | TiO2-c | TiO2-nw | Perovskite | Spiro-MeOTAD | Au",
+        "SLG | FTO | TiO2-c | TiO2-np | Perovskite | Au"
+      ]
+    },
+    "Cell_area_total": {
+      "present_count": 959,
+      "missing_fraction": 0.977405,
+      "examples": [
+        "0.09",
+        "0.16",
+        "0.12"
+      ]
+    },
+    "Cell_area_measured": {
+      "present_count": 41732,
+      "missing_fraction": 0.016752,
+      "examples": [
+        "0.2",
+        "0.1",
+        "0.06"
+      ]
+    },
+    "Cell_number_of_cells_per_substrate": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "0",
+        "1",
+        "10"
+      ]
+    },
+    "Cell_architecture": {
+      "present_count": 42437,
+      "missing_fraction": 0.000141,
+      "examples": [
+        "nip",
+        "pin",
+        "Front contacted"
+      ]
+    },
+    "Cell_flexible": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "False",
+        "True"
+      ]
+    },
+    "Cell_flexible_min_bending_radius": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Cell_semitransparent": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "False",
+        "True"
+      ]
+    },
+    "Cell_semitransparent_AVT": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Cell_semitransparent_wavelength_range": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "nan; nan"
+      ]
+    },
+    "Cell_semitransparent_raw_data": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Module": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "False",
+        "True"
+      ]
+    },
+    "Module_number_of_cells_in_module": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "0",
+        "12",
+        "10"
+      ]
+    },
+    "Module_area_total": {
+      "present_count": 290,
+      "missing_fraction": 0.993167,
+      "examples": [
+        "53.64",
+        "100.0",
+        "16.0"
+      ]
+    },
+    "Module_area_effective": {
+      "present_count": 89,
+      "missing_fraction": 0.997903,
+      "examples": [
+        "48.0",
+        "52.0",
+        "8.100000000000001"
+      ]
+    },
+    "Module_JV_data_recalculated_per_cell": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "False",
+        "True"
+      ]
+    },
+    "Substrate_stack_sequence": {
+      "present_count": 42432,
+      "missing_fraction": 0.000259,
+      "examples": [
+        "SLG | FTO",
+        "SLG | ITO",
+        "SLG"
+      ]
+    },
+    "Substrate_thickness": {
+      "present_count": 346,
+      "missing_fraction": 0.991848,
+      "examples": [
+        "nan | 60.0",
+        "nan | 35.0 | nan | 35.0",
+        "0.175 | 0.0025"
+      ]
+    },
+    "Substrate_area": {
+      "present_count": 318,
+      "missing_fraction": 0.992508,
+      "examples": [
+        "9.0",
+        "1.0",
+        "6.25"
+      ]
+    },
+    "Substrate_supplier": {
+      "present_count": 567,
+      "missing_fraction": 0.986641,
+      "examples": [
+        "Yingkou OPV Tech New Energy Co.",
+        "Xiang Science & Technology",
+        "Nippon Sheet Glass Co."
+      ]
+    },
+    "Substrate_brand_name": {
+      "present_count": 281,
+      "missing_fraction": 0.993379,
+      "examples": [
+        "TEC15",
+        "TEC8",
+        "NSG10"
+      ]
+    },
+    "Substrate_deposition_procedure": {
+      "present_count": 930,
+      "missing_fraction": 0.978088,
+      "examples": [
+        "Commercial | Commercial",
+        "Commercial | ALD | Doctor blading | ALD",
+        "Spin-coating | Commercial"
+      ]
+    },
+    "Substrate_surface_roughness_rms": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Substrate_etching_procedure": {
+      "present_count": 272,
+      "missing_fraction": 0.993591,
+      "examples": [
+        "Zn-powder; HCl >> Mecanical scrubbing",
+        "Laser etching",
+        "Photolithography"
+      ]
+    },
+    "Substrate_cleaning_procedure": {
+      "present_count": 1150,
+      "missing_fraction": 0.972905,
+      "examples": [
+        "Soap >> Ultrasonic bath >> de-ionized Water >> Ultrasonic bath >> Acetone >> UV-Ozone >> Ethanol >> UV-Ozone",
+        "Acetone >> Ultrasonic bath >> Isopropyl alcohol >> Ultrasonic bath >> de-ionized Water",
+        "De-ionized Water >> Ultrasonic bath >> Soap >> Ultrasonic bath >> IPA >> Ultrasonic bath"
+      ]
+    },
+    "ETL_stack_sequence": {
+      "present_count": 42113,
+      "missing_fraction": 0.007775,
+      "examples": [
+        "TiO2-c | TiO2-mp",
+        "TiO2-c | TiO2-nw",
+        "TiO2-c | TiO2-np"
+      ]
+    },
+    "ETL_thickness": {
+      "present_count": 18506,
+      "missing_fraction": 0.56398,
+      "examples": [
+        "65.0 | nan",
+        "nan | 400.0",
+        "nan | nan"
+      ]
+    },
+    "ETL_additives_compounds": {
+      "present_count": 5465,
+      "missing_fraction": 0.871239,
+      "examples": [
+        "Unknown | Er",
+        "Unknown | Er; Yb",
+        "Sn"
+      ]
+    },
+    "ETL_additives_concentrations": {
+      "present_count": 309,
+      "missing_fraction": 0.99272,
+      "examples": [
+        "0.03",
+        "0.05",
+        "0.07"
+      ]
+    },
+    "ETL_deposition_procedure": {
+      "present_count": 41760,
+      "missing_fraction": 0.016092,
+      "examples": [
+        "Spray-pyrolys | Spin-coating",
+        "CBD | Hydrothermal",
+        "Spin-coating | Spin-coating"
+      ]
+    },
+    "ETL_deposition_aggregation_state_of_reactants": {
+      "present_count": 1868,
+      "missing_fraction": 0.955988,
+      "examples": [
+        "Gas",
+        "Liquid | Gas",
+        "Liquid"
+      ]
+    },
+    "ETL_deposition_synthesis_atmosphere": {
+      "present_count": 1498,
+      "missing_fraction": 0.964706,
+      "examples": [
+        "Air",
+        "Vacuum",
+        "N2 | Air"
+      ]
+    },
+    "ETL_deposition_synthesis_atmosphere_pressure_total": {
+      "present_count": 385,
+      "missing_fraction": 0.990929,
+      "examples": [
+        "0.005 Torr | 1 atm",
+        "0.0000048 Torr | 0.0000048 Torr",
+        "0.000001 Torr"
+      ]
+    },
+    "ETL_deposition_synthesis_atmosphere_pressure_partial": {
+      "present_count": 295,
+      "missing_fraction": 0.99305,
+      "examples": [
+        "0.3 Torr",
+        "nan | 0.3 Torr",
+        "0.0004023 Torr; 0.0046 Torr | 1 atm"
+      ]
+    },
+    "ETL_deposition_synthesis_atmosphere_relative_humidity": {
+      "present_count": 275,
+      "missing_fraction": 0.993521,
+      "examples": [
+        "20 | 20",
+        "50 | 50 | 50",
+        "55; nan"
+      ]
+    },
+    "ETL_deposition_solvents": {
+      "present_count": 1701,
+      "missing_fraction": 0.959923,
+      "examples": [
+        "Water",
+        "2-methoxyethanol | Water",
+        "Water | Water"
+      ]
+    },
+    "ETL_deposition_solvents_mixing_ratios": {
+      "present_count": 953,
+      "missing_fraction": 0.977546,
+      "examples": [
+        "3; 1 | 1",
+        "0.25; 9 | 1",
+        "1"
+      ]
+    },
+    "ETL_deposition_solvents_supplier": {
+      "present_count": 292,
+      "missing_fraction": 0.99312,
+      "examples": [
+        "Sigma Aldrich | Sigma Aldrich | Unknown",
+        "Sigma Aldrich; Sigma Aldrich | Unknown >> Unknown",
+        "Unknown | Alfa Aesar"
+      ]
+    },
+    "ETL_deposition_solvents_purity": {
+      "present_count": 138,
+      "missing_fraction": 0.996749,
+      "examples": [
+        "99.8%; 99.5% | Uknown >> Unknown",
+        "0.998",
+        "99.8% | 99.5%"
+      ]
+    },
+    "ETL_deposition_reaction_solutions_compounds": {
+      "present_count": 1548,
+      "missing_fraction": 0.963528,
+      "examples": [
+        "Titanium diisopropoxide bis(acetylacetonate) | TiO2-np",
+        "CdSO4; thiourea; NH4OH",
+        "TiCl4"
+      ]
+    },
+    "ETL_deposition_reaction_solutions_compounds_supplier": {
+      "present_count": 585,
+      "missing_fraction": 0.986217,
+      "examples": [
+        "Unknown | Dyesole",
+        "Sinopharm",
+        "ITASCO >> Unknown >> Unknown"
+      ]
+    },
+    "ETL_deposition_reaction_solutions_compounds_purity": {
+      "present_count": 169,
+      "missing_fraction": 0.996018,
+      "examples": [
+        "Puris",
+        "Puris | Unknown",
+        "0.97"
+      ]
+    },
+    "ETL_deposition_reaction_solutions_concentrations": {
+      "present_count": 1227,
+      "missing_fraction": 0.971091,
+      "examples": [
+        "20 mg/ml | 0.6 mg/ml",
+        "20 mg/ml | 0.5 mg/ml",
+        "nan | 0.1 g/0.8mL >> 0.1 M"
+      ]
+    },
+    "ETL_deposition_reaction_solutions_volumes": {
+      "present_count": 135,
+      "missing_fraction": 0.996819,
+      "examples": [
+        "2.2; 2.2; 2.8",
+        "250.0",
+        "54.35"
+      ]
+    },
+    "ETL_deposition_reaction_solutions_age": {
+      "present_count": 75,
+      "missing_fraction": 0.998233,
+      "examples": [
+        "30.0",
+        "8.0",
+        "4.0"
+      ]
+    },
+    "ETL_deposition_reaction_solutions_temperature": {
+      "present_count": 541,
+      "missing_fraction": 0.987253,
+      "examples": [
+        "70",
+        "450 | Unknown",
+        "Unknown >> 220 >> Unknown"
+      ]
+    },
+    "ETL_deposition_substrate_temperature": {
+      "present_count": 723,
+      "missing_fraction": 0.982965,
+      "examples": [
+        "150",
+        "60",
+        "70"
+      ]
+    },
+    "ETL_deposition_thermal_annealing_temperature": {
+      "present_count": 1800,
+      "missing_fraction": 0.95759,
+      "examples": [
+        "80.0 | Unknown",
+        "80.0",
+        "200"
+      ]
+    },
+    "ETL_deposition_thermal_annealing_time": {
+      "present_count": 1679,
+      "missing_fraction": 0.960441,
+      "examples": [
+        "12.0 | Unknown",
+        "12.0",
+        "60.0"
+      ]
+    },
+    "ETL_deposition_thermal_annealing_atmosphere": {
+      "present_count": 764,
+      "missing_fraction": 0.981999,
+      "examples": [
+        "Air",
+        "Ambient | Ambient",
+        "Vacuum >> Vacuum >> Unknown"
+      ]
+    },
+    "ETL_storage_time_until_next_deposition_step": {
+      "present_count": 22,
+      "missing_fraction": 0.999482,
+      "examples": [
+        "0.25",
+        "0.16",
+        "1.0"
+      ]
+    },
+    "ETL_storage_atmosphere": {
+      "present_count": 35,
+      "missing_fraction": 0.999175,
+      "examples": [
+        "N2",
+        "Ar",
+        "Air"
+      ]
+    },
+    "ETL_storage_relative_humidity": {
+      "present_count": 17,
+      "missing_fraction": 0.999599,
+      "examples": [
+        "0.9",
+        "30.0",
+        "20.0"
+      ]
+    },
+    "ETL_surface_treatment_before_next_deposition_step": {
+      "present_count": 167,
+      "missing_fraction": 0.996065,
+      "examples": [
+        "UV",
+        "Ozone",
+        "Plasma"
+      ]
+    },
+    "Perovskite_single_crystal": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "False",
+        "True"
+      ]
+    },
+    "Perovskite_dimension_0D": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "False",
+        "True"
+      ]
+    },
+    "Perovskite_dimension_2D": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "False",
+        "True"
+      ]
+    },
+    "Perovskite_dimension_2D3D_mixture": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "False",
+        "True"
+      ]
+    },
+    "Perovskite_dimension_3D": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "True",
+        "False"
+      ]
+    },
+    "Perovskite_dimension_3D_with_2D_capping_layer": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "False",
+        "True"
+      ]
+    },
+    "Perovskite_dimension_list_of_layers": {
+      "present_count": 42424,
+      "missing_fraction": 0.000448,
+      "examples": [
+        "3.0",
+        "3.0 | 2.0",
+        "2.0"
+      ]
+    },
+    "Perovskite_composition_perovskite_ABC3_structure": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "True",
+        "False"
+      ]
+    },
+    "Perovskite_composition_perovskite_inspired_structure": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "False",
+        "True"
+      ]
+    },
+    "Perovskite_composition_a_ions": {
+      "present_count": 42414,
+      "missing_fraction": 0.000683,
+      "examples": [
+        "Cs",
+        "MA",
+        "Cs; FA; MA"
+      ]
+    },
+    "Perovskite_composition_a_ions_coefficients": {
+      "present_count": 42386,
+      "missing_fraction": 0.001343,
+      "examples": [
+        "1",
+        "0.05; 0.788; 0.162",
+        "0.05; 0.788; 0.032; 0.129"
+      ]
+    },
+    "Perovskite_composition_b_ions": {
+      "present_count": 42438,
+      "missing_fraction": 0.000118,
+      "examples": [
+        "Sn",
+        "Pb",
+        "Sb"
+      ]
+    },
+    "Perovskite_composition_b_ions_coefficients": {
+      "present_count": 42409,
+      "missing_fraction": 0.000801,
+      "examples": [
+        "1",
+        "2",
+        "0.4; 0.6 | 0.4; 0.6"
+      ]
+    },
+    "Perovskite_composition_c_ions": {
+      "present_count": 42438,
+      "missing_fraction": 0.000118,
+      "examples": [
+        "I",
+        "Br; I",
+        "Br"
+      ]
+    },
+    "Perovskite_composition_c_ions_coefficients": {
+      "present_count": 42404,
+      "missing_fraction": 0.000919,
+      "examples": [
+        "3",
+        "0.3; 2.7",
+        "1.5; 1.5"
+      ]
+    },
+    "Perovskite_composition_none_stoichiometry_components_in_excess": {
+      "present_count": 6930,
+      "missing_fraction": 0.836722,
+      "examples": [
+        "MA",
+        "HCl",
+        "PbI2"
+      ]
+    },
+    "Perovskite_composition_short_form": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "CsSnI",
+        "CsSnBrI",
+        "CsSnBr"
+      ]
+    },
+    "Perovskite_composition_long_form": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "CsSnI3",
+        "CsSnBr0.3I2.7",
+        "CsSnBr1.5I1.5"
+      ]
+    },
+    "Perovskite_composition_assumption": {
+      "present_count": 1469,
+      "missing_fraction": 0.965389,
+      "examples": [
+        "Solution composition | XRD",
+        "Solution composition",
+        "XRD"
+      ]
+    },
+    "Perovskite_composition_inorganic": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "True",
+        "False"
+      ]
+    },
+    "Perovskite_composition_leadfree": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "True",
+        "False"
+      ]
+    },
+    "Perovskite_additives_compounds": {
+      "present_count": 13213,
+      "missing_fraction": 0.688688,
+      "examples": [
+        "SnF2",
+        "Cl",
+        "Rb"
+      ]
+    },
+    "Perovskite_additives_concentrations": {
+      "present_count": 4896,
+      "missing_fraction": 0.884645,
+      "examples": [
+        "0.2",
+        "0.25",
+        "0.05"
+      ]
+    },
+    "Perovskite_thickness": {
+      "present_count": 13317,
+      "missing_fraction": 0.686238,
+      "examples": [
+        "400.0",
+        "500.0",
+        "350.0"
+      ]
+    },
+    "Perovskite_band_gap": {
+      "present_count": 31867,
+      "missing_fraction": 0.249181,
+      "examples": [
+        "1.27",
+        "1.75",
+        "1.37"
+      ]
+    },
+    "Perovskite_band_gap_graded": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "false",
+        "true"
+      ]
+    },
+    "Perovskite_band_gap_estimation_basis": {
+      "present_count": 23144,
+      "missing_fraction": 0.454704,
+      "examples": [
+        "Composition",
+        "Absorption",
+        "Absorption Tauc-plot"
+      ]
+    },
+    "Perovskite_pl_max": {
+      "present_count": 10205,
+      "missing_fraction": 0.75956,
+      "examples": [
+        "775",
+        "765",
+        "785"
+      ]
+    },
+    "Perovskite_deposition_number_of_deposition_steps": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "1",
+        "3",
+        "2"
+      ]
+    },
+    "Perovskite_deposition_procedure": {
+      "present_count": 42298,
+      "missing_fraction": 0.003416,
+      "examples": [
+        "Spin-coating",
+        "Evaporation",
+        "Co-evaporation >> Evaporation >> Spin-coating"
+      ]
+    },
+    "Perovskite_deposition_aggregation_state_of_reactants": {
+      "present_count": 42319,
+      "missing_fraction": 0.002922,
+      "examples": [
+        "Liquid",
+        "Gas",
+        "Gas >> Gas >> Liquid"
+      ]
+    },
+    "Perovskite_deposition_synthesis_atmosphere": {
+      "present_count": 27602,
+      "missing_fraction": 0.349669,
+      "examples": [
+        "N2",
+        "Ar",
+        "Vacuum"
+      ]
+    },
+    "Perovskite_deposition_synthesis_atmosphere_pressure_total": {
+      "present_count": 566,
+      "missing_fraction": 0.986664,
+      "examples": [
+        "1 atm >> 1 atm",
+        "1 atm >> 60 Pa",
+        "nan | 700 Pa"
+      ]
+    },
+    "Perovskite_deposition_synthesis_atmosphere_pressure_partial": {
+      "present_count": 548,
+      "missing_fraction": 0.987089,
+      "examples": [
+        "1 atm >> 1 atm",
+        "1 atm",
+        "0.000001 mbar >> 1 atm"
+      ]
+    },
+    "Perovskite_deposition_synthesis_atmosphere_relative_humidity": {
+      "present_count": 684,
+      "missing_fraction": 0.983884,
+      "examples": [
+        "15",
+        "10 >> 10",
+        "10 >> 0"
+      ]
+    },
+    "Perovskite_deposition_solvents": {
+      "present_count": 40868,
+      "missing_fraction": 0.037109,
+      "examples": [
+        "DMSO",
+        "DMF",
+        "DMSO; GBL"
+      ]
+    },
+    "Perovskite_deposition_solvents_mixing_ratios": {
+      "present_count": 40321,
+      "missing_fraction": 0.049996,
+      "examples": [
+        "1",
+        "1; 1",
+        "9; 1"
+      ]
+    },
+    "Perovskite_deposition_solvents_supplier": {
+      "present_count": 524,
+      "missing_fraction": 0.987654,
+      "examples": [
+        "Alfa Aesar; Alfa Aesar",
+        "Sigma Aldrich",
+        "Alfa Aesar; Sigma Aldrich"
+      ]
+    },
+    "Perovskite_deposition_solvents_purity": {
+      "present_count": 173,
+      "missing_fraction": 0.995924,
+      "examples": [
+        "99.9%; 99.5%",
+        "99.9%; 99.8%",
+        "99.9%; 99.8% >> Unkown"
+      ]
+    },
+    "Perovskite_deposition_reaction_solutions_compounds": {
+      "present_count": 1768,
+      "missing_fraction": 0.958344,
+      "examples": [
+        "nan >> Octylammonium iodide",
+        "CsI; FAI; MABr; PbBr2; PbI2; RbI >> FABr",
+        "nan >> MACl"
+      ]
+    },
+    "Perovskite_deposition_reaction_solutions_compounds_supplier": {
+      "present_count": 569,
+      "missing_fraction": 0.986594,
+      "examples": [
+        "Unknown >> PEAI",
+        "PbI2; MAI",
+        "Xi’an p-OLED; Xi’an p-OLED"
+      ]
+    },
+    "Perovskite_deposition_reaction_solutions_compounds_purity": {
+      "present_count": 297,
+      "missing_fraction": 0.993002,
+      "examples": [
+        "Unknown >> MACl",
+        "Unknown >> ODAI",
+        "Unknown >> CsAc"
+      ]
+    },
+    "Perovskite_deposition_reaction_solutions_concentrations": {
+      "present_count": 1455,
+      "missing_fraction": 0.965719,
+      "examples": [
+        "nan >> 1 mg/ml",
+        "nan >> 2 mg/ml",
+        "nan >> 3 mg/ml"
+      ]
+    },
+    "Perovskite_deposition_reaction_solutions_volumes": {
+      "present_count": 245,
+      "missing_fraction": 0.994228,
+      "examples": [
+        "Unknown >> 0.04",
+        "0.25",
+        "Unknown >> 0.05"
+      ]
+    },
+    "Perovskite_deposition_reaction_solutions_age": {
+      "present_count": 244,
+      "missing_fraction": 0.994251,
+      "examples": [
+        "6.0",
+        "12.0",
+        "Unknown >> 30.0"
+      ]
+    },
+    "Perovskite_deposition_reaction_solutions_temperature": {
+      "present_count": 691,
+      "missing_fraction": 0.983719,
+      "examples": [
+        "70",
+        "50",
+        "Unknown >> 160"
+      ]
+    },
+    "Perovskite_deposition_substrate_temperature": {
+      "present_count": 742,
+      "missing_fraction": 0.982518,
+      "examples": [
+        "190.0",
+        "0",
+        "-10"
+      ]
+    },
+    "Perovskite_deposition_quenching_induced_crystallisation": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "False",
+        "True"
+      ]
+    },
+    "Perovskite_deposition_quenching_media": {
+      "present_count": 20070,
+      "missing_fraction": 0.527131,
+      "examples": [
+        "Toluene",
+        "Chlorobenzene",
+        "Gas"
+      ]
+    },
+    "Perovskite_deposition_quenching_media_mixing_ratios": {
+      "present_count": 716,
+      "missing_fraction": 0.98313,
+      "examples": [
+        "990; 10",
+        "1; 1",
+        "10; 90"
+      ]
+    },
+    "Perovskite_deposition_quenching_media_volume": {
+      "present_count": 711,
+      "missing_fraction": 0.983248,
+      "examples": [
+        "100.0",
+        "130.0",
+        "500.0"
+      ]
+    },
+    "Perovskite_deposition_quenching_media_additives_compounds": {
+      "present_count": 835,
+      "missing_fraction": 0.980327,
+      "examples": [
+        "BAI",
+        "C60; PEG",
+        "CsI"
+      ]
+    },
+    "Perovskite_deposition_quenching_media_additives_concentrations": {
+      "present_count": 85,
+      "missing_fraction": 0.997997,
+      "examples": [
+        "0.1 mg/ml",
+        "0.3 mg/ml",
+        "0.5 mg/ml"
+      ]
+    },
+    "Perovskite_deposition_thermal_annealing_temperature": {
+      "present_count": 39015,
+      "missing_fraction": 0.080767,
+      "examples": [
+        "100",
+        "110",
+        "70; 100"
+      ]
+    },
+    "Perovskite_deposition_thermal_annealing_time": {
+      "present_count": 38011,
+      "missing_fraction": 0.104422,
+      "examples": [
+        "10.0",
+        "60.0",
+        "1.0; 8.0"
+      ]
+    },
+    "Perovskite_deposition_thermal_annealing_atmosphere": {
+      "present_count": 1301,
+      "missing_fraction": 0.969347,
+      "examples": [
+        "Vacuum >> N2",
+        "Unknown | 70",
+        "N2"
+      ]
+    },
+    "Perovskite_deposition_thermal_annealing_relative_humidity": {
+      "present_count": 151,
+      "missing_fraction": 0.996442,
+      "examples": [
+        "0 >> 0",
+        "0; 60",
+        "30"
+      ]
+    },
+    "Perovskite_deposition_thermal_annealing_pressure": {
+      "present_count": 259,
+      "missing_fraction": 0.993898,
+      "examples": [
+        "Vacuum >> 1 atm",
+        "50 Pa; nan; nan",
+        "nan >> 700 Pa"
+      ]
+    },
+    "Perovskite_deposition_solvent_annealing": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "False",
+        "True"
+      ]
+    },
+    "Perovskite_deposition_solvent_annealing_timing": {
+      "present_count": 128,
+      "missing_fraction": 0.996984,
+      "examples": [
+        "After",
+        "Before",
+        "Under"
+      ]
+    },
+    "Perovskite_deposition_solvent_annealing_solvent_atmosphere": {
+      "present_count": 696,
+      "missing_fraction": 0.983602,
+      "examples": [
+        "DMSO",
+        "DMF; DMSO",
+        "TBP"
+      ]
+    },
+    "Perovskite_deposition_solvent_annealing_time": {
+      "present_count": 219,
+      "missing_fraction": 0.99484,
+      "examples": [
+        "10.0",
+        "80.0",
+        "60.0"
+      ]
+    },
+    "Perovskite_deposition_solvent_annealing_temperature": {
+      "present_count": 124,
+      "missing_fraction": 0.997078,
+      "examples": [
+        "100.0",
+        "90.0",
+        "150.0"
+      ]
+    },
+    "Perovskite_deposition_after_treatment_of_formed_perovskite": {
+      "present_count": 1624,
+      "missing_fraction": 0.961737,
+      "examples": [
+        "Washed with IPA",
+        "Magnetic field",
+        "Washed with IPA >> Drying in flow of N2"
+      ]
+    },
+    "Perovskite_deposition_after_treatment_of_formed_perovskite_met": {
+      "present_count": 120,
+      "missing_fraction": 0.997173,
+      "examples": [
+        "85 deg. C in N2",
+        "85 deg. C in O2",
+        "85 deg. C in Air 50 % RH"
+      ]
+    },
+    "Perovskite_storage_time_until_next_deposition_step": {
+      "present_count": 81,
+      "missing_fraction": 0.998092,
+      "examples": [
+        "24.0",
+        "120.0",
+        "48.0"
+      ]
+    },
+    "Perovskite_storage_atmosphere": {
+      "present_count": 150,
+      "missing_fraction": 0.996466,
+      "examples": [
+        "Air",
+        "Vacuum",
+        "N2"
+      ]
+    },
+    "Perovskite_storage_relative_humidity": {
+      "present_count": 67,
+      "missing_fraction": 0.998421,
+      "examples": [
+        "70.0",
+        "75.0",
+        "40.0"
+      ]
+    },
+    "Perovskite_surface_treatment_before_next_deposition_step": {
+      "present_count": 4,
+      "missing_fraction": 0.999906,
+      "examples": [
+        "Ar plasma",
+        "UV"
+      ]
+    },
+    "HTL_stack_sequence": {
+      "present_count": 39780,
+      "missing_fraction": 0.062743,
+      "examples": [
+        "Spiro-MeOTAD",
+        "PEDOT:PSS",
+        "PEDOT:PSS | TPD"
+      ]
+    },
+    "HTL_thickness_list": {
+      "present_count": 10016,
+      "missing_fraction": 0.764013,
+      "examples": [
+        "50.0",
+        "70.0 | nan",
+        "250.0"
+      ]
+    },
+    "HTL_additives_compounds": {
+      "present_count": 24045,
+      "missing_fraction": 0.433475,
+      "examples": [
+        "Li(CF3SO2)2N; TBP",
+        "Li-TFSI; TPB",
+        "Co-TPTB; Li-TFSI; TBP"
+      ]
+    },
+    "HTL_additives_concentrations": {
+      "present_count": 993,
+      "missing_fraction": 0.976604,
+      "examples": [
+        "2 wt%",
+        "5 wt%",
+        "10 wt%"
+      ]
+    },
+    "HTL_deposition_procedure": {
+      "present_count": 39539,
+      "missing_fraction": 0.068421,
+      "examples": [
+        "Spin-coating",
+        "Spin-coating | Spin-coating",
+        "Spray-pyrolys"
+      ]
+    },
+    "HTL_deposition_aggregation_state_of_reactants": {
+      "present_count": 2029,
+      "missing_fraction": 0.952195,
+      "examples": [
+        "Liquid",
+        "Liquid | Liquid",
+        "Liquid | Gas"
+      ]
+    },
+    "HTL_deposition_synthesis_atmosphere": {
+      "present_count": 1077,
+      "missing_fraction": 0.974625,
+      "examples": [
+        "N2",
+        "Ambient",
+        "Vacuum | Ar"
+      ]
+    },
+    "HTL_deposition_synthesis_atmosphere_pressure_total": {
+      "present_count": 486,
+      "missing_fraction": 0.988549,
+      "examples": [
+        "0.0001 Pa | nan",
+        "0.0001 Pa",
+        "N2"
+      ]
+    },
+    "HTL_deposition_synthesis_atmosphere_pressure_partial": {
+      "present_count": 438,
+      "missing_fraction": 0.98968,
+      "examples": [
+        "1 atm",
+        "1 atm | 0.000001 Torr",
+        "1 atm | 1 atm"
+      ]
+    },
+    "HTL_deposition_synthesis_atmosphere_relative_humidity": {
+      "present_count": 139,
+      "missing_fraction": 0.996725,
+      "examples": [
+        "0.9",
+        "80.0",
+        "65.0"
+      ]
+    },
+    "HTL_deposition_solvents": {
+      "present_count": 1629,
+      "missing_fraction": 0.961619,
+      "examples": [
+        "Chlorobenzene | Chlorobenzene",
+        "Hexane | Unknown",
+        "2-methoxyethanol"
+      ]
+    },
+    "HTL_deposition_solvents_mixing_ratios": {
+      "present_count": 509,
+      "missing_fraction": 0.988007,
+      "examples": [
+        "1",
+        "1; 8",
+        "nan | 1"
+      ]
+    },
+    "HTL_deposition_solvents_supplier": {
+      "present_count": 208,
+      "missing_fraction": 0.995099,
+      "examples": [
+        "Unknown; Sigma Aldrich",
+        "Sigma Aldrich; Sigma Aldrich",
+        "Xi'an Polymer Light Technology; Xi'an Polymer Light Technology"
+      ]
+    },
+    "HTL_deposition_solvents_purity": {
+      "present_count": 56,
+      "missing_fraction": 0.998681,
+      "examples": [
+        "99.8%; 99.8%",
+        "Puris; Puris",
+        "Puris"
+      ]
+    },
+    "HTL_deposition_reaction_solutions_compounds": {
+      "present_count": 1385,
+      "missing_fraction": 0.967368,
+      "examples": [
+        "Al(C2H5)3 | nan",
+        "Li-TFSI; Spiro-MeOTAD; TBP",
+        "CF-BTz-ThR"
+      ]
+    },
+    "HTL_deposition_reaction_solutions_compounds_supplier": {
+      "present_count": 447,
+      "missing_fraction": 0.989468,
+      "examples": [
+        "Synthesized",
+        "Synthesized; Synthesized",
+        "Clevios PVP"
+      ]
+    },
+    "HTL_deposition_reaction_solutions_compounds_purity": {
+      "present_count": 76,
+      "missing_fraction": 0.998209,
+      "examples": [
+        "0.98",
+        "99.95%; Unknown; 96%",
+        "0.999"
+      ]
+    },
+    "HTL_deposition_reaction_solutions_concentrations": {
+      "present_count": 1178,
+      "missing_fraction": 0.972245,
+      "examples": [
+        "63 mg/ml",
+        "72 mg/ml",
+        "73 mg/ml"
+      ]
+    },
+    "HTL_deposition_reaction_solutions_volumes": {
+      "present_count": 138,
+      "missing_fraction": 0.996749,
+      "examples": [
+        "0.02",
+        "1.7",
+        "1.5"
+      ]
+    },
+    "HTL_deposition_reaction_solutions_age": {
+      "present_count": 47,
+      "missing_fraction": 0.998893,
+      "examples": [
+        "0.33",
+        "0.0167",
+        "0.5"
+      ]
+    },
+    "HTL_deposition_reaction_solutions_temperature": {
+      "present_count": 377,
+      "missing_fraction": 0.991117,
+      "examples": [
+        "50",
+        "25",
+        "90"
+      ]
+    },
+    "HTL_deposition_substrate_temperature": {
+      "present_count": 377,
+      "missing_fraction": 0.991117,
+      "examples": [
+        "25",
+        "120 | 25",
+        "120"
+      ]
+    },
+    "HTL_deposition_thermal_annealing_temperature": {
+      "present_count": 1056,
+      "missing_fraction": 0.97512,
+      "examples": [
+        "30 | Unknown",
+        "7 | Unknown",
+        "9 | Unknown"
+      ]
+    },
+    "HTL_deposition_thermal_annealing_time": {
+      "present_count": 623,
+      "missing_fraction": 0.985321,
+      "examples": [
+        "10.0 | Unknown",
+        "45.0",
+        "15.0"
+      ]
+    },
+    "HTL_deposition_thermal_annealing_atmosphere": {
+      "present_count": 549,
+      "missing_fraction": 0.987065,
+      "examples": [
+        "N2",
+        "Air",
+        "O2"
+      ]
+    },
+    "HTL_storage_time_until_next_deposition_step": {
+      "present_count": 75,
+      "missing_fraction": 0.998233,
+      "examples": [
+        "12.0",
+        "24.0",
+        "20.0"
+      ]
+    },
+    "HTL_storage_atmosphere": {
+      "present_count": 136,
+      "missing_fraction": 0.996796,
+      "examples": [
+        "O2",
+        "Ambient",
+        "Dry air"
+      ]
+    },
+    "HTL_storage_relative_humidity": {
+      "present_count": 8,
+      "missing_fraction": 0.999812,
+      "examples": [
+        "10.0",
+        "20.0"
+      ]
+    },
+    "HTL_surface_treatment_before_next_deposition_step": {
+      "present_count": 47,
+      "missing_fraction": 0.998893,
+      "examples": [
+        "Ar plasma",
+        "Plasma",
+        "UV-Ozone"
+      ]
+    },
+    "Backcontact_stack_sequence": {
+      "present_count": 42415,
+      "missing_fraction": 0.00066,
+      "examples": [
+        "Au",
+        "Ag",
+        "Ba | Ag"
+      ]
+    },
+    "Backcontact_thickness_list": {
+      "present_count": 34469,
+      "missing_fraction": 0.187876,
+      "examples": [
+        "90.0",
+        "80.0",
+        "70.0"
+      ]
+    },
+    "Backcontact_additives_compounds": {
+      "present_count": 1388,
+      "missing_fraction": 0.967297,
+      "examples": [
+        "CuS",
+        "WO3-np",
+        "P"
+      ]
+    },
+    "Backcontact_additives_concentrations": {
+      "present_count": 16,
+      "missing_fraction": 0.999623,
+      "examples": [
+        "5 wt%",
+        "7.5 wt%",
+        "10 wt%"
+      ]
+    },
+    "Backcontact_deposition_procedure": {
+      "present_count": 42176,
+      "missing_fraction": 0.006291,
+      "examples": [
+        "Evaporation",
+        "Evaporation | Evaporation",
+        "Doctor blading"
+      ]
+    },
+    "Backcontact_deposition_aggregation_state_of_reactants": {
+      "present_count": 1819,
+      "missing_fraction": 0.957143,
+      "examples": [
+        "Gas",
+        "Liquid",
+        "Gas | Gas"
+      ]
+    },
+    "Backcontact_deposition_synthesis_atmosphere": {
+      "present_count": 1602,
+      "missing_fraction": 0.962255,
+      "examples": [
+        "Vacuum",
+        "Vacuum | Vacuum",
+        "N2 | Vacuum"
+      ]
+    },
+    "Backcontact_deposition_synthesis_atmosphere_pressure_total": {
+      "present_count": 458,
+      "missing_fraction": 0.989209,
+      "examples": [
+        "0.00005 Torr",
+        "0.000000001 bar",
+        "0.0004 Pa"
+      ]
+    },
+    "Backcontact_deposition_synthesis_atmosphere_pressure_partial": {
+      "present_count": 174,
+      "missing_fraction": 0.9959,
+      "examples": [
+        "0.0003 Pa",
+        "0.000001 Torr",
+        "0.00001 mbar"
+      ]
+    },
+    "Backcontact_deposition_synthesis_atmosphere_relative_humidity": {
+      "present_count": 37,
+      "missing_fraction": 0.999128,
+      "examples": [
+        "50 | nan | nan",
+        "50.0",
+        "30.0"
+      ]
+    },
+    "Backcontact_deposition_solvents": {
+      "present_count": 18,
+      "missing_fraction": 0.999576,
+      "examples": [
+        "Ethyl cellulose; Terpineol",
+        "Ethyl cellulose; Terpineol | Unknown",
+        "IPA | none"
+      ]
+    },
+    "Backcontact_deposition_solvents_mixing_ratios": {
+      "present_count": 182,
+      "missing_fraction": 0.995712,
+      "examples": [
+        "1",
+        "1 | 1",
+        "1 | nan | nan"
+      ]
+    },
+    "Backcontact_deposition_solvents_supplier": {
+      "present_count": 6,
+      "missing_fraction": 0.999859,
+      "examples": [
+        "Guangzhou Seaside Technology",
+        "Shanghai MaterWin New Material"
+      ]
+    },
+    "Backcontact_deposition_solvents_purity": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Backcontact_deposition_reaction_solutions_compounds": {
+      "present_count": 1053,
+      "missing_fraction": 0.97519,
+      "examples": [
+        "Au",
+        "Ag",
+        "Carbon"
+      ]
+    },
+    "Backcontact_deposition_reaction_solutions_compounds_supplier": {
+      "present_count": 45,
+      "missing_fraction": 0.99894,
+      "examples": [
+        "Sigma Aldrich | Unknown",
+        "Styccobond; Agfa | Epigem",
+        "Guangzhou Seaside Technology"
+      ]
+    },
+    "Backcontact_deposition_reaction_solutions_compounds_purity": {
+      "present_count": 13,
+      "missing_fraction": 0.999694,
+      "examples": [
+        "99.99"
+      ]
+    },
+    "Backcontact_deposition_reaction_solutions_concentrations": {
+      "present_count": 7,
+      "missing_fraction": 0.999835,
+      "examples": [
+        "8 mg/ml | nan",
+        "57.2 wt%; 42.8 wt% | nan"
+      ]
+    },
+    "Backcontact_deposition_reaction_solutions_volumes": {
+      "present_count": 1,
+      "missing_fraction": 0.999976,
+      "examples": [
+        "15.0 | Unknown | Unknown"
+      ]
+    },
+    "Backcontact_deposition_reaction_solutions_age": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Backcontact_deposition_reaction_solutions_temperature": {
+      "present_count": 250,
+      "missing_fraction": 0.99411,
+      "examples": [
+        "25 | 25",
+        "25"
+      ]
+    },
+    "Backcontact_deposition_substrate_temperature": {
+      "present_count": 465,
+      "missing_fraction": 0.989044,
+      "examples": [
+        "100",
+        "100 | 25",
+        "80"
+      ]
+    },
+    "Backcontact_deposition_thermal_annealing_temperature": {
+      "present_count": 409,
+      "missing_fraction": 0.990364,
+      "examples": [
+        "120",
+        "100",
+        "80"
+      ]
+    },
+    "Backcontact_deposition_thermal_annealing_time": {
+      "present_count": 146,
+      "missing_fraction": 0.99656,
+      "examples": [
+        "15.0",
+        "30.0",
+        "10.0"
+      ]
+    },
+    "Backcontact_deposition_thermal_annealing_atmosphere": {
+      "present_count": 127,
+      "missing_fraction": 0.997008,
+      "examples": [
+        "Air",
+        "N2",
+        "Vacuum"
+      ]
+    },
+    "Backcontact_storage_time_until_next_deposition_step": {
+      "present_count": 7,
+      "missing_fraction": 0.999835,
+      "examples": [
+        "24.0"
+      ]
+    },
+    "Backcontact_storage_atmosphere": {
+      "present_count": 21,
+      "missing_fraction": 0.999505,
+      "examples": [
+        "Dry air",
+        "Air",
+        "N2"
+      ]
+    },
+    "Backcontact_storage_relative_humidity": {
+      "present_count": 11,
+      "missing_fraction": 0.999741,
+      "examples": [
+        "5.0",
+        "10.0"
+      ]
+    },
+    "Backcontact_surface_treatment_before_next_deposition_step": {
+      "present_count": 4,
+      "missing_fraction": 0.999906,
+      "examples": [
+        "EDA gas",
+        "DEDA gas",
+        "TETA gas"
+      ]
+    },
+    "Add_lay_front": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "False",
+        "True"
+      ]
+    },
+    "Add_lay_front_function": {
+      "present_count": 113,
+      "missing_fraction": 0.997338,
+      "examples": [
+        "Antireflection",
+        "Down conversion",
+        "Light management"
+      ]
+    },
+    "Add_lay_front_stack_sequence": {
+      "present_count": 90,
+      "missing_fraction": 0.99788,
+      "examples": [
+        "Moth eye PDMS",
+        "MgF2",
+        "CdSeS-QDs"
+      ]
+    },
+    "Add_lay_front_thickness_list": {
+      "present_count": 8,
+      "missing_fraction": 0.999812,
+      "examples": [
+        "90.0",
+        "50.0",
+        "100.0"
+      ]
+    },
+    "Add_lay_front_additives_compounds": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Add_lay_front_additives_concentrations": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Add_lay_front_deposition_procedure": {
+      "present_count": 4,
+      "missing_fraction": 0.999906,
+      "examples": [
+        "Evaporation"
+      ]
+    },
+    "Add_lay_front_deposition_aggregation_state_of_reactants": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Add_lay_front_deposition_synthesis_atmosphere": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Add_lay_front_deposition_synthesis_atmosphere_pressure_total": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Add_lay_front_deposition_synthesis_atmosphere_pressure_partial": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Add_lay_front_deposition_synthesis_atmosphere_relative_humidity": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Add_lay_front_deposition_solvents": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Add_lay_front_deposition_solvents_mixing_ratios": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Add_lay_front_deposition_solvents_supplier": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Add_lay_front_deposition_solvents_purity": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Add_lay_front_deposition_reaction_solutions_compounds": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Add_lay_front_deposition_reaction_solutions_compounds_supplier": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Add_lay_front_deposition_reaction_solutions_compounds_purity": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Add_lay_front_deposition_reaction_solutions_concentrations": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Add_lay_front_deposition_reaction_solutions_volumes": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Add_lay_front_deposition_reaction_solutions_age": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Add_lay_front_deposition_reaction_solutions_temperature": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Add_lay_front_deposition_substrate_temperature": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Add_lay_front_deposition_thermal_annealing_temperature": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Add_lay_front_deposition_thermal_annealing_time": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Add_lay_front_deposition_thermal_annealing_atmosphere": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Add_lay_front_storage_time_until_next_deposition_step": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Add_lay_front_storage_atmosphere": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Add_lay_front_storage_relative_humidity": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Add_lay_front_surface_treatment_before_next_deposition_step": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Add_lay_back": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "False",
+        "True"
+      ]
+    },
+    "Add_lay_back_function": {
+      "present_count": 28,
+      "missing_fraction": 0.99934,
+      "examples": [
+        "Antireflection",
+        "Dielectric mirror",
+        "Upconversion"
+      ]
+    },
+    "Add_lay_back_stack_sequence": {
+      "present_count": 14,
+      "missing_fraction": 0.99967,
+      "examples": [
+        "MgF2"
+      ]
+    },
+    "Add_lay_back_thickness_list": {
+      "present_count": 4,
+      "missing_fraction": 0.999906,
+      "examples": [
+        "90.0",
+        "105.0"
+      ]
+    },
+    "Add_lay_back_additives_compounds": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Add_lay_back_additives_concentrations": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Add_lay_back_deposition_procedure": {
+      "present_count": 2,
+      "missing_fraction": 0.999953,
+      "examples": [
+        "Evaporation"
+      ]
+    },
+    "Add_lay_back_deposition_aggregation_state_of_reactants": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Add_lay_back_deposition_synthesis_atmosphere": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Add_lay_back_deposition_synthesis_atmosphere_pressure_total": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Add_lay_back_deposition_synthesis_atmosphere_pressure_partial": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Add_lay_back_deposition_synthesis_atmosphere_relative_humidity": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Add_lay_back_deposition_solvents": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Add_lay_back_deposition_solvents_mixing_ratios": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Add_lay_back_deposition_solvents_supplier": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Add_lay_back_deposition_solvents_purity": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Add_lay_back_deposition_reaction_solutions_compounds": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Add_lay_back_deposition_reaction_solutions_compounds_supplier": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Add_lay_back_deposition_reaction_solutions_compounds_purity": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Add_lay_back_deposition_reaction_solutions_concentrations": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Add_lay_back_deposition_reaction_solutions_volumes": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Add_lay_back_deposition_reaction_solutions_age": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Add_lay_back_deposition_reaction_solutions_temperature": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Add_lay_back_deposition_substrate_temperature": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Add_lay_back_deposition_thermal_annealing_temperature": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Add_lay_back_deposition_thermal_annealing_time": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Add_lay_back_deposition_thermal_annealing_atmosphere": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Add_lay_back_storage_time_until_next_deposition_step": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Add_lay_back_storage_atmosphere": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Add_lay_back_storage_relative_humidity": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Add_lay_back_surface_treatment_before_next_deposition_step": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Encapsulation": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "False",
+        "True"
+      ]
+    },
+    "Encapsulation_stack_sequence": {
+      "present_count": 1167,
+      "missing_fraction": 0.972504,
+      "examples": [
+        "Ossila E132 resin",
+        "Polymer",
+        "Cover glass-QDs"
+      ]
+    },
+    "Encapsulation_edge_sealing_materials": {
+      "present_count": 498,
+      "missing_fraction": 0.988267,
+      "examples": [
+        "UV-curable epoxy",
+        "UV-glue (NOA 68, Norland products)",
+        "NOA 63"
+      ]
+    },
+    "Encapsulation_atmosphere_for_encapsulation": {
+      "present_count": 596,
+      "missing_fraction": 0.985958,
+      "examples": [
+        "N2",
+        "Ar",
+        "Air"
+      ]
+    },
+    "Encapsulation_water_vapour_transmission_rate": {
+      "present_count": 16,
+      "missing_fraction": 0.999623,
+      "examples": [
+        "0.0033399999999999997",
+        "11.0",
+        "0.03"
+      ]
+    },
+    "Encapsulation_oxygen_transmission_rate": {
+      "present_count": 2,
+      "missing_fraction": 0.999953,
+      "examples": [
+        "1071.75"
+      ]
+    },
+    "JV_measured": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "True",
+        "False"
+      ]
+    },
+    "JV_average_over_n_number_of_cells": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "1",
+        "10",
+        "60"
+      ]
+    },
+    "JV_certified_values": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "False",
+        "True"
+      ]
+    },
+    "JV_certification_institute": {
+      "present_count": 94,
+      "missing_fraction": 0.997785,
+      "examples": [
+        "AIST, National Institute of Advanced Industrial Science and Technology",
+        "PVEVL, National Central University, Taiwan",
+        "NIM, National Institute of Metrology of China"
+      ]
+    },
+    "JV_storage_age_of_cell": {
+      "present_count": 36,
+      "missing_fraction": 0.999152,
+      "examples": [
+        "2.0",
+        "1.0",
+        "5.0"
+      ]
+    },
+    "JV_storage_atmosphere": {
+      "present_count": 52,
+      "missing_fraction": 0.998775,
+      "examples": [
+        "Dry air",
+        "Air",
+        "Ambient"
+      ]
+    },
+    "JV_storage_relative_humidity": {
+      "present_count": 16,
+      "missing_fraction": 0.999623,
+      "examples": [
+        "0.9",
+        "65.0",
+        "5.0"
+      ]
+    },
+    "JV_test_atmosphere": {
+      "present_count": 19121,
+      "missing_fraction": 0.54949,
+      "examples": [
+        "Air",
+        "N2",
+        "Ar"
+      ]
+    },
+    "JV_test_relative_humidity": {
+      "present_count": 289,
+      "missing_fraction": 0.993191,
+      "examples": [
+        "50.0",
+        "40.0",
+        "20.0"
+      ]
+    },
+    "JV_test_temperature": {
+      "present_count": 155,
+      "missing_fraction": 0.996348,
+      "examples": [
+        "0.0",
+        "50.0",
+        "100.0"
+      ]
+    },
+    "JV_light_source_type": {
+      "present_count": 1788,
+      "missing_fraction": 0.957873,
+      "examples": [
+        "Fluorescent lamp",
+        "White LED",
+        "Laser"
+      ]
+    },
+    "JV_light_source_brand_name": {
+      "present_count": 969,
+      "missing_fraction": 0.977169,
+      "examples": [
+        "Cree XML T6",
+        "Oriel 92251A-1000",
+        "Newport Oriel 92192"
+      ]
+    },
+    "JV_light_source_simulator_class": {
+      "present_count": 572,
+      "missing_fraction": 0.986523,
+      "examples": [
+        "AAA",
+        "ABB",
+        "ABA"
+      ]
+    },
+    "JV_light_intensity": {
+      "present_count": 42380,
+      "missing_fraction": 0.001484,
+      "examples": [
+        "100.0",
+        "85.0",
+        "150.0"
+      ]
+    },
+    "JV_light_spectra": {
+      "present_count": 39954,
+      "missing_fraction": 0.058643,
+      "examples": [
+        "AM 1.5",
+        "Indoor light",
+        "Monochromatic"
+      ]
+    },
+    "JV_light_wavelength_range": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "nan; nan",
+        "250; 1200"
+      ]
+    },
+    "JV_light_illumination_direction": {
+      "present_count": 1144,
+      "missing_fraction": 0.973046,
+      "examples": [
+        "Superstrate",
+        "Substrate"
+      ]
+    },
+    "JV_light_masked_cell": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "False",
+        "True"
+      ]
+    },
+    "JV_light_mask_area": {
+      "present_count": 814,
+      "missing_fraction": 0.980821,
+      "examples": [
+        "0.16",
+        "0.2",
+        "0.0625"
+      ]
+    },
+    "JV_scan_speed": {
+      "present_count": 16083,
+      "missing_fraction": 0.621068,
+      "examples": [
+        "10.0",
+        "70.0",
+        "200.0"
+      ]
+    },
+    "JV_scan_delay_time": {
+      "present_count": 127,
+      "missing_fraction": 0.997008,
+      "examples": [
+        "1.0",
+        "10.0",
+        "100.0"
+      ]
+    },
+    "JV_scan_integration_time": {
+      "present_count": 20,
+      "missing_fraction": 0.999529,
+      "examples": [
+        "16.67",
+        "30.0",
+        "3.0"
+      ]
+    },
+    "JV_scan_voltage_step": {
+      "present_count": 175,
+      "missing_fraction": 0.995877,
+      "examples": [
+        "20.0",
+        "10.0",
+        "25.0"
+      ]
+    },
+    "JV_preconditioning_protocol": {
+      "present_count": 997,
+      "missing_fraction": 0.97651,
+      "examples": [
+        "Light soaking",
+        "Electroluminescence measurement",
+        "Voc stabilization"
+      ]
+    },
+    "JV_preconditioning_time": {
+      "present_count": 218,
+      "missing_fraction": 0.994864,
+      "examples": [
+        "1200.0",
+        "60.0",
+        "500.0"
+      ]
+    },
+    "JV_preconditioning_potential": {
+      "present_count": 135,
+      "missing_fraction": 0.996819,
+      "examples": [
+        "2.0",
+        "1.2",
+        "0.0"
+      ]
+    },
+    "JV_preconditioning_light_intensity": {
+      "present_count": 62,
+      "missing_fraction": 0.998539,
+      "examples": [
+        "1.6597964754745906",
+        "1.6158621051134023",
+        "2.0"
+      ]
+    },
+    "JV_reverse_scan_Voc": {
+      "present_count": 39626,
+      "missing_fraction": 0.066371,
+      "examples": [
+        "0.002",
+        "0.12",
+        "0.135"
+      ]
+    },
+    "JV_reverse_scan_Jsc": {
+      "present_count": 39658,
+      "missing_fraction": 0.065617,
+      "examples": [
+        "0.22",
+        "0.49",
+        "3.69"
+      ]
+    },
+    "JV_reverse_scan_FF": {
+      "present_count": 39479,
+      "missing_fraction": 0.069835,
+      "examples": [
+        "0.57",
+        "0.25",
+        "0.26"
+      ]
+    },
+    "JV_reverse_scan_PCE": {
+      "present_count": 40767,
+      "missing_fraction": 0.039488,
+      "examples": [
+        "0.0",
+        "0.13",
+        "0.12"
+      ]
+    },
+    "JV_reverse_scan_Vmp": {
+      "present_count": 126,
+      "missing_fraction": 0.997031,
+      "examples": [
+        "0.757",
+        "0.9",
+        "0.83"
+      ]
+    },
+    "JV_reverse_scan_Jmp": {
+      "present_count": 127,
+      "missing_fraction": 0.997008,
+      "examples": [
+        "13.09",
+        "11.95",
+        "21.1"
+      ]
+    },
+    "JV_reverse_scan_series_resistance": {
+      "present_count": 67,
+      "missing_fraction": 0.998421,
+      "examples": [
+        "1.96",
+        "2.01",
+        "9.8"
+      ]
+    },
+    "JV_reverse_scan_shunt_resistance": {
+      "present_count": 51,
+      "missing_fraction": 0.998798,
+      "examples": [
+        "1043.59",
+        "1098.0",
+        "2184.0"
+      ]
+    },
+    "JV_forward_scan_Voc": {
+      "present_count": 8643,
+      "missing_fraction": 0.796362,
+      "examples": [
+        "0.86",
+        "0.81",
+        "1.01"
+      ]
+    },
+    "JV_forward_scan_Jsc": {
+      "present_count": 8660,
+      "missing_fraction": 0.795962,
+      "examples": [
+        "18.08",
+        "14.51",
+        "19.21"
+      ]
+    },
+    "JV_forward_scan_FF": {
+      "present_count": 8610,
+      "missing_fraction": 0.79714,
+      "examples": [
+        "0.82",
+        "0.79",
+        "0.483"
+      ]
+    },
+    "JV_forward_scan_PCE": {
+      "present_count": 8789,
+      "missing_fraction": 0.792922,
+      "examples": [
+        "12.65",
+        "9.46",
+        "9.4"
+      ]
+    },
+    "JV_forward_scan_Vmp": {
+      "present_count": 49,
+      "missing_fraction": 0.998846,
+      "examples": [
+        "0.85",
+        "0.75",
+        "0.8"
+      ]
+    },
+    "JV_forward_scan_Jmp": {
+      "present_count": 49,
+      "missing_fraction": 0.998846,
+      "examples": [
+        "17.915",
+        "14.262",
+        "18.375"
+      ]
+    },
+    "JV_forward_scan_series_resistance": {
+      "present_count": 49,
+      "missing_fraction": 0.998846,
+      "examples": [
+        "3.37",
+        "4.23",
+        "3.3"
+      ]
+    },
+    "JV_forward_scan_shunt_resistance": {
+      "present_count": 48,
+      "missing_fraction": 0.998869,
+      "examples": [
+        "3000.0",
+        "600.0",
+        "5000.0"
+      ]
+    },
+    "JV_link_raw_data": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "JV_default_Voc": {
+      "present_count": 40309,
+      "missing_fraction": 0.050279,
+      "examples": [
+        "0.002",
+        "0.12",
+        "0.135"
+      ]
+    },
+    "JV_default_Jsc": {
+      "present_count": 40344,
+      "missing_fraction": 0.049455,
+      "examples": [
+        "0.22",
+        "0.49",
+        "3.69"
+      ]
+    },
+    "JV_default_FF": {
+      "present_count": 40157,
+      "missing_fraction": 0.05386,
+      "examples": [
+        "0.57",
+        "0.25",
+        "0.26"
+      ]
+    },
+    "JV_default_PCE": {
+      "present_count": 41519,
+      "missing_fraction": 0.02177,
+      "examples": [
+        "0.0",
+        "0.13",
+        "0.12"
+      ]
+    },
+    "JV_default_Voc_scan_direction": {
+      "present_count": 40309,
+      "missing_fraction": 0.050279,
+      "examples": [
+        "Reversed",
+        "Forward"
+      ]
+    },
+    "JV_default_Jsc_scan_direction": {
+      "present_count": 40344,
+      "missing_fraction": 0.049455,
+      "examples": [
+        "Reversed",
+        "Forward"
+      ]
+    },
+    "JV_default_FF_scan_direction": {
+      "present_count": 40157,
+      "missing_fraction": 0.05386,
+      "examples": [
+        "Reversed",
+        "Forward"
+      ]
+    },
+    "JV_default_PCE_scan_direction": {
+      "present_count": 41519,
+      "missing_fraction": 0.02177,
+      "examples": [
+        "Reversed",
+        "Stabilised",
+        "Forward"
+      ]
+    },
+    "JV_hysteresis_index": {
+      "present_count": 7877,
+      "missing_fraction": 0.81441,
+      "examples": [
+        "0.0352025415770898",
+        "0.04616661622439766",
+        "1.0117084150020004"
+      ]
+    },
+    "Stabilised_performance_measured": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "False",
+        "True"
+      ]
+    },
+    "Stabilised_performance_procedure": {
+      "present_count": 241,
+      "missing_fraction": 0.994322,
+      "examples": [
+        "MPPT",
+        "Constant potential",
+        "Constant Potential"
+      ]
+    },
+    "Stabilised_performance_procedure_metrics": {
+      "present_count": 99,
+      "missing_fraction": 0.997667,
+      "examples": [
+        "0.62",
+        "0.757",
+        "0.9"
+      ]
+    },
+    "Stabilised_performance_measurement_time": {
+      "present_count": 233,
+      "missing_fraction": 0.99451,
+      "examples": [
+        "2.0",
+        "3000.0",
+        "1.7"
+      ]
+    },
+    "Stabilised_performance_PCE": {
+      "present_count": 3385,
+      "missing_fraction": 0.920246,
+      "examples": [
+        "12.0",
+        "9.0",
+        "16.4"
+      ]
+    },
+    "Stabilised_performance_Vmp": {
+      "present_count": 175,
+      "missing_fraction": 0.995877,
+      "examples": [
+        "0.94",
+        "1.01",
+        "0.88"
+      ]
+    },
+    "Stabilised_performance_Jmp": {
+      "present_count": 179,
+      "missing_fraction": 0.995783,
+      "examples": [
+        "22.42",
+        "19.3",
+        "22.97"
+      ]
+    },
+    "Stabilised_performance_link_raw_data": {
+      "present_count": 1,
+      "missing_fraction": 0.999976,
+      "examples": [
+        "false"
+      ]
+    },
+    "EQE_measured": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "False",
+        "True"
+      ]
+    },
+    "EQE_light_bias": {
+      "present_count": 11,
+      "missing_fraction": 0.999741,
+      "examples": [
+        "100.0",
+        "10.0"
+      ]
+    },
+    "EQE_integrated_Jsc": {
+      "present_count": 5565,
+      "missing_fraction": 0.868883,
+      "examples": [
+        "18.0",
+        "14.5",
+        "18.3"
+      ]
+    },
+    "EQE_link_raw_data": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Stability_measured": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "False",
+        "True"
+      ]
+    },
+    "Stability_protocol": {
+      "present_count": 7419,
+      "missing_fraction": 0.825201,
+      "examples": [
+        "ISOS-L-1",
+        "ISOS-D-1",
+        "ISOS-D-2"
+      ]
+    },
+    "Stability_average_over_n_number_of_cells": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "1",
+        "4",
+        "2"
+      ]
+    },
+    "Stability_light_source_type": {
+      "present_count": 7378,
+      "missing_fraction": 0.826167,
+      "examples": [
+        "Xenon",
+        "Dark",
+        "White LED"
+      ]
+    },
+    "Stability_light_source_brand_name": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Stability_light_source_simulator_class": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Stability_light_intensity": {
+      "present_count": 7296,
+      "missing_fraction": 0.828099,
+      "examples": [
+        "100.0",
+        "0.0",
+        "70.0"
+      ]
+    },
+    "Stability_light_spectra": {
+      "present_count": 676,
+      "missing_fraction": 0.984073,
+      "examples": [
+        "AM 1.5",
+        "Monochromatic",
+        "UV"
+      ]
+    },
+    "Stability_light_wavelength_range": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "nan; nan",
+        "267.0; 267.0",
+        "365.0; 365.0"
+      ]
+    },
+    "Stability_light_illumination_direction": {
+      "present_count": 10,
+      "missing_fraction": 0.999764,
+      "examples": [
+        "Substrate"
+      ]
+    },
+    "Stability_light_load_condition": {
+      "present_count": 118,
+      "missing_fraction": 0.99722,
+      "examples": [
+        "Constant",
+        "Day-Night cycle",
+        "constant"
+      ]
+    },
+    "Stability_light_cycling_times": {
+      "present_count": 8,
+      "missing_fraction": 0.999812,
+      "examples": [
+        "10.0; 14.0",
+        "12.0; 12.0",
+        "0.16; 12.0"
+      ]
+    },
+    "Stability_light_UV_filter": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "False",
+        "True"
+      ]
+    },
+    "Stability_potential_bias_load_condition": {
+      "present_count": 7422,
+      "missing_fraction": 0.82513,
+      "examples": [
+        "MPPT",
+        "Open circuit",
+        "Constant potential"
+      ]
+    },
+    "Stability_potential_bias_range": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "nan; nan",
+        "0.85; 0.85",
+        "0.908; 0.908"
+      ]
+    },
+    "Stability_potential_bias_passive_resistance": {
+      "present_count": 13,
+      "missing_fraction": 0.999694,
+      "examples": [
+        "510.0",
+        "1000.0",
+        "550.0"
+      ]
+    },
+    "Stability_temperature_load_condition": {
+      "present_count": 369,
+      "missing_fraction": 0.991306,
+      "examples": [
+        "Constant",
+        "Cycled",
+        "constant"
+      ]
+    },
+    "Stability_temperature_range": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "nan; nan",
+        "25.0; 25.0",
+        "85.0; 85.0"
+      ]
+    },
+    "Stability_temperature_cycling_times": {
+      "present_count": 9,
+      "missing_fraction": 0.999788,
+      "examples": [
+        "15.0; 15.0",
+        "25.0; 25.0",
+        "100.0; 100.0"
+      ]
+    },
+    "Stability_temperature_ramp_speed": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Stability_atmosphere": {
+      "present_count": 6783,
+      "missing_fraction": 0.840186,
+      "examples": [
+        "Ambient",
+        "Air",
+        "N2"
+      ]
+    },
+    "Stability_atmosphere_oxygen_concentration": {
+      "present_count": 15,
+      "missing_fraction": 0.999647,
+      "examples": [
+        "100.0",
+        "1.0",
+        "2.5"
+      ]
+    },
+    "Stability_relative_humidity_load_conditions": {
+      "present_count": 249,
+      "missing_fraction": 0.994133,
+      "examples": [
+        "Constant",
+        "constant",
+        "ambient"
+      ]
+    },
+    "Stability_relative_humidity_range": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "nan; nan",
+        "25; 50",
+        "40; 50"
+      ]
+    },
+    "Stability_relative_humidity_average_value": {
+      "present_count": 5384,
+      "missing_fraction": 0.873148,
+      "examples": [
+        "34.0",
+        "50.0",
+        "40.0"
+      ]
+    },
+    "Stability_time_total_exposure": {
+      "present_count": 7399,
+      "missing_fraction": 0.825672,
+      "examples": [
+        "0.083",
+        "480.0",
+        "5.0"
+      ]
+    },
+    "Stability_periodic_JV_measurements": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "False",
+        "True"
+      ]
+    },
+    "Stability_periodic_JV_measurements_time_between_jv": {
+      "present_count": 291,
+      "missing_fraction": 0.993144,
+      "examples": [
+        "120.0",
+        "6.0",
+        "168.0"
+      ]
+    },
+    "Stability_PCE_initial_value": {
+      "present_count": 3036,
+      "missing_fraction": 0.928469,
+      "examples": [
+        "12.0",
+        "9.0",
+        "13.0"
+      ]
+    },
+    "Stability_PCE_burn_in_observed": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "False",
+        "True"
+      ]
+    },
+    "Stability_PCE_end_of_experiment": {
+      "present_count": 7373,
+      "missing_fraction": 0.826285,
+      "examples": [
+        "100.0",
+        "61.0",
+        "78.0"
+      ]
+    },
+    "Stability_PCE_T95": {
+      "present_count": 223,
+      "missing_fraction": 0.994746,
+      "examples": [
+        "120.0",
+        "370.0",
+        "12.0"
+      ]
+    },
+    "Stability_PCE_Ts95": {
+      "present_count": 22,
+      "missing_fraction": 0.999482,
+      "examples": [
+        "72.0",
+        "60.0",
+        "1000.0"
+      ]
+    },
+    "Stability_PCE_T80": {
+      "present_count": 1834,
+      "missing_fraction": 0.956789,
+      "examples": [
+        "220.0",
+        "350.0",
+        "200.0"
+      ]
+    },
+    "Stability_PCE_Ts80": {
+      "present_count": 87,
+      "missing_fraction": 0.99795,
+      "examples": [
+        "100.0",
+        "5.0",
+        "960.0"
+      ]
+    },
+    "Stability_PCE_Te80": {
+      "present_count": 49,
+      "missing_fraction": 0.998846,
+      "examples": [
+        "540.0",
+        "68.0",
+        "2250.0"
+      ]
+    },
+    "Stability_PCE_Tse80": {
+      "present_count": 6,
+      "missing_fraction": 0.999859,
+      "examples": [
+        "8000.0",
+        "460.0",
+        "850.0"
+      ]
+    },
+    "Stability_PCE_after_1000_h": {
+      "present_count": 1008,
+      "missing_fraction": 0.976251,
+      "examples": [
+        "82.0",
+        "92.0",
+        "87.8"
+      ]
+    },
+    "Stability_lifetime_energy_yield": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Stability_flexible_cell_number_of_bending_cycles": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "0",
+        "2000",
+        "500"
+      ]
+    },
+    "Stability_flexible_cell_bending_radius": {
+      "present_count": 2,
+      "missing_fraction": 0.999953,
+      "examples": [
+        "140.0"
+      ]
+    },
+    "Stability_flexible_cell_PCE_initial_value": {
+      "present_count": 15,
+      "missing_fraction": 0.999647,
+      "examples": [
+        "10.2",
+        "13.64",
+        "16.1"
+      ]
+    },
+    "Stability_flexible_cell_PCE_end_of_experiment": {
+      "present_count": 20,
+      "missing_fraction": 0.999529,
+      "examples": [
+        "92.0",
+        "80.0",
+        "77.0"
+      ]
+    },
+    "Stability_link_raw_data_for_stability_trace": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Outdoor_tested": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "False",
+        "True"
+      ]
+    },
+    "Outdoor_protocol": {
+      "present_count": 9,
+      "missing_fraction": 0.999788,
+      "examples": [
+        "ISOS-O-1",
+        "IEC 61853-1"
+      ]
+    },
+    "Outdoor_average_over_n_number_of_cells": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "1",
+        "3"
+      ]
+    },
+    "Outdoor_location_country": {
+      "present_count": 28,
+      "missing_fraction": 0.99934,
+      "examples": [
+        "Spain",
+        "Israel",
+        "Colombia"
+      ]
+    },
+    "Outdoor_location_city": {
+      "present_count": 2,
+      "missing_fraction": 0.999953,
+      "examples": [
+        "Hong Kong",
+        "Ljubljana"
+      ]
+    },
+    "Outdoor_location_coordinates": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "nan; nan"
+      ]
+    },
+    "Outdoor_location_climate_zone": {
+      "present_count": 10,
+      "missing_fraction": 0.999764,
+      "examples": [
+        "Temperate",
+        "Cold",
+        "Desert"
+      ]
+    },
+    "Outdoor_installation_tilt": {
+      "present_count": 9,
+      "missing_fraction": 0.999788,
+      "examples": [
+        "30.0",
+        "10.0",
+        "22.0"
+      ]
+    },
+    "Outdoor_installation_cardinal_direction": {
+      "present_count": 1,
+      "missing_fraction": 0.999976,
+      "examples": [
+        "180.0"
+      ]
+    },
+    "Outdoor_installation_number_of_solar_tracking_axis": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "0"
+      ]
+    },
+    "Outdoor_time_season": {
+      "present_count": 10,
+      "missing_fraction": 0.999764,
+      "examples": [
+        "Winter",
+        "Autumn; Winter",
+        "Spring"
+      ]
+    },
+    "Outdoor_time_start": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "0000:00:00:00:00"
+      ]
+    },
+    "Outdoor_time_end": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "0000:00:00:00:00",
+        "0000:03:14:00:00"
+      ]
+    },
+    "Outdoor_time_total_exposure": {
+      "present_count": 39,
+      "missing_fraction": 0.999081,
+      "examples": [
+        "45.0",
+        "12.5",
+        "16.0"
+      ]
+    },
+    "Outdoor_potential_bias_load_condition": {
+      "present_count": 1,
+      "missing_fraction": 0.999976,
+      "examples": [
+        "MPPT"
+      ]
+    },
+    "Outdoor_potential_bias_range": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "nan; nan"
+      ]
+    },
+    "Outdoor_potential_bias_passive_resistance": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Outdoor_temperature_load_condition": {
+      "present_count": 1,
+      "missing_fraction": 0.999976,
+      "examples": [
+        "Uncontrolled"
+      ]
+    },
+    "Outdoor_temperature_range": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "nan; nan",
+        "15; 60"
+      ]
+    },
+    "Outdoor_temperature_tmodule": {
+      "present_count": 4,
+      "missing_fraction": 0.999906,
+      "examples": [
+        "60.0",
+        "30.0"
+      ]
+    },
+    "Outdoor_periodic_JV_measurements": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "False",
+        "True"
+      ]
+    },
+    "Outdoor_periodic_JV_measurements_time_between_measurements": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Outdoor_PCE_initial_value": {
+      "present_count": 19,
+      "missing_fraction": 0.999552,
+      "examples": [
+        "11.0",
+        "8.1",
+        "9.2"
+      ]
+    },
+    "Outdoor_PCE_burn_in_observed": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "False",
+        "True"
+      ]
+    },
+    "Outdoor_PCE_end_of_experiment": {
+      "present_count": 38,
+      "missing_fraction": 0.999105,
+      "examples": [
+        "60.0",
+        "111.0",
+        "100.0"
+      ]
+    },
+    "Outdoor_PCE_T95": {
+      "present_count": 1,
+      "missing_fraction": 0.999976,
+      "examples": [
+        "4.0"
+      ]
+    },
+    "Outdoor_PCE_Ts95": {
+      "present_count": 1,
+      "missing_fraction": 0.999976,
+      "examples": [
+        "36.0"
+      ]
+    },
+    "Outdoor_PCE_T80": {
+      "present_count": 2,
+      "missing_fraction": 0.999953,
+      "examples": [
+        "8.0",
+        "120.0"
+      ]
+    },
+    "Outdoor_PCE_Ts80": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Outdoor_PCE_Te80": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Outdoor_PCE_Tse80": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Outdoor_PCE_after_1000_h": {
+      "present_count": 1,
+      "missing_fraction": 0.999976,
+      "examples": [
+        "40.0"
+      ]
+    },
+    "Outdoor_power_generated": {
+      "present_count": 1,
+      "missing_fraction": 0.999976,
+      "examples": [
+        "76.0"
+      ]
+    },
+    "Outdoor_link_raw_data_for_outdoor_trace": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Outdoor_detaild_weather_data_available": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "False",
+        "True"
+      ]
+    },
+    "Outdoor_link_detailed_weather_data": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Outdoor_spectral_data_available": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "False"
+      ]
+    },
+    "Outdoor_link_spectral_data": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    },
+    "Outdoor_irradiance_measured": {
+      "present_count": 42443,
+      "missing_fraction": 0.0,
+      "examples": [
+        "False",
+        "True"
+      ]
+    },
+    "Outdoor_link_irradiance_data": {
+      "present_count": 0,
+      "missing_fraction": 1.0,
+      "examples": []
+    }
+  },
+  "limitations": [
+    "Nonmissing is not equivalent to valid.",
+    "PCE range 0..100 is a parsing check, not a training filter.",
+    "Nested process values are preserved, not parsed."
+  ]
+}
